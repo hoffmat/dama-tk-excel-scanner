@@ -5,7 +5,7 @@ Java Applikation für das Parsen von Datastore TK-Excels zur Extraktion von Meta
 # Anmerkung zum aktuellen Entwicklungsstand:
 Der TK-Excel-Scanner wurde auf Basis der im Verzeichnis /daten/tk_excels abgelegten TK-Excel Templates und den Anforderungen, die in Confluence unter https://confluence.ruv.de:8443/confluence/display/EDD/DataStore+-+Metadaten beschrieben sind entwickelt.
 
-Ein Test auf Basis von realen TK-Excels ist bisher nicht erfolgt. 
+Es ist bisher kein Test auf Basis von realen TK-Excels erfolgt. 
 
 Da der DAMA TK-Excel-Scanner Metadaten für den Metadaten Management HUB (MDM Hub) bereitstellen soll und der MDM Hub erst im ersten Halbjahr 2023 konzipiert und umgesetzt wird, muss die Strukturen und der Inhalt der erzeugten Hub-Dateien noch angepasst werden.  
 
