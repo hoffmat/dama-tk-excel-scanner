@@ -80,12 +80,17 @@ Ziel hierbei ist es, die erkannten Fehler an den entsprechnden Fachbereiche weit
 Die Logging-Datei hat folgenden Aufbau:
 
 Zeitpunkt --> Zeitpunkt der Prüfung
+</br>
 Excel_File --> Name des Excels, in dem der Fehler/die Warnung aufgetreten ist
+</br>
 Reiter --> Name des Reiters, in dem der Fehler/die Warnung aufgetreten ist
+</br>
 Zeilennummer --> Zeilennummer im Reiter, in dem der Fehler/die Warnung aufgetreten ist
+</br>
 Logtyp --> Art der Log-Information [Fehler, Warnung]
            Für TK-Excels bei denen mindestens ein Fehler aufgetreten ist, werden keine Daten in den MDM-Hub Ausgangsdateien erzeugt (Excel wird übersprungen)
            Für TK-Excels bei denen nur Warnungen aufegtreten sind, werden Daten in den MDM-Hub Ausgangsdateien erzeugt (Excel wird nicht übersprungen)
+</br>
 Information --> Logging-Meldung
 
 
