@@ -42,7 +42,14 @@ datastore_lineage.csv	   --> legt die Datenflüsse zwischen Objekten fest
 datastore_attributes.csv	--> enthält Attribute und Attributwerte, die füe ein Objekt gelten
 
 
+# Konfigurationsdatei
+Die Applikation liest beim Programmstart Parameter aus einer Konfigurationsdatei
+Die Konfigurationsdatei muss im csv-Format abgelegt sein. 
+Der Name und der Pfad der Datei ist beim Programmstart anzugeben.
 
+Parameter werden im Format<parametername>,<parameterwert> angegeben  
+// am Zeilenanfang wird als Kommentar erkannt  
+Zeilen, die mit * beginnen werden ignoriert
 
 
  
