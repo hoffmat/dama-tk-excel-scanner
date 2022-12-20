@@ -7,7 +7,7 @@ Der TK-Excel-Scanner wurde auf Basis der im Verzeichnis /daten/tk_excels abgeleg
 
 Ein Test auf Basis von realen TK-Excels ist bisher nicht erfolgt. 
 
-Da der DAMA TK-Excel-Scanner Metadaten für den Metadaten Management HUB (MDM Hub) 
+Da der DAMA TK-Excel-Scanner Metadaten für den Metadaten Management HUB (MDM Hub) bereitstellen soll und der MDM Hub erst im ersten Halbjahr 2023 konzipiert und umgesetzt wird, muss die Strukturen und der Inhalt der erzeugten Hub-Dateien noch angepasst werden.  
 
 # Eingangsdaten
 Die Applikation verarbeitet TK-Excel Dateien. Die Dateien müssen in einem Verzeichnis abgelegt werden, dass in der Konfigurationsdatei config.csv als Parameter angegeben wird.
