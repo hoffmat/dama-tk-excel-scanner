@@ -44,15 +44,27 @@ datastore_attributes.csv	--> enthält Attribute und Attributwerte, die füe ein 
 
 # Konfigurationsdatei
 Die Applikation liest beim Programmstart Parameter aus einer Konfigurationsdatei
+</br>
 Die Konfigurationsdatei muss im csv-Format abgelegt sein. 
-Der Name und der Pfad der Datei ist beim Programmstart anzugeben.
+Der Name und der Pfad der Datei sind beim Programmstart als Applikationsparameter angegeben werden.
 
-Parameter werden im Format<parametername>,<parameterwert> angegeben  
+Parameter werden in der Konfigurationsdatei im Format <parametername>,<parameterwert> angegeben (ohne Quotes)  
 // am Zeilenanfang wird als Kommentar erkannt  
 Zeilen, die mit * beginnen werden ignoriert
 
+Aktuell werden folgende Parameter verwendet:
 
- 
+quellverzeichnis	   --> gibt an, wo die TK-Excels abgelegt sind
+</br>
+zielverzeichnis	   --> gibt an, wo die MDM-Hub Dateien und die Logging-Datei abgelegt werden
+</br>  
+attributewhitelist	   --> legt die gültige Attributmenge fest
+</br>
+attribunamedefaults --> legt die gültige Attributmenge fest, für die Default-Werte gesetzt werden sollen 
+</br>
+attributwertdefaults --> legt die gültige Default-Werte für die Default-Attribute fest (Null = es wird Defaultwert gesetzt)
+
+
 # Applikationsausführung
 Die Applikation wird wie folgt aufgerufen:  java -jar \<applikationsname> \<Pfad und Name des Config-Files>
  
