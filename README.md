@@ -28,6 +28,6 @@ zielverzeichnis,C:\tmp\datastore\hub\
 
  
 # Applikationsausführung
-Die Applikation wird wie folgt aufgerufen:  java -jar \<applikationsname> <Pfad und Name des Config-Files>\
+Die Applikation wird wie folgt aufgerufen:  java -jar \<applikationsname> \<Pfad und Name des Config-Files>
  
 Beispielaufruf: java -jar dama-tk-excel-scanner-0.1.0.jar C:\tmp\datastore\config.csv
