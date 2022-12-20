@@ -8,14 +8,14 @@ Der TK-Excel-Scanner wurde auf Basis der im Verzeichnis /daten/tk_excels abgeleg
 # Eingangsdaten
 Die Applikation verarbeitet TK-Excel Dateien. Die Dateien müssen in einem Verzeichnis abgelegt werden, dass in der Konfigurationsdatei config.csv als Parameter angegeben wird.
 
-
 Beispiel config.csv:
 </br>
 // Quellverzeichnis in dem die Datastore Excel-Files gesucht werden
 </br>
 quellverzeichnis,C:\tmp\datastore\tk_excels\
-
 </br>
+
+Beispiel TK-Excel Dateien sind im Verezichnis /daten/tk_excels abgelegt
 
 # Ausgangsdaten
 Die Applikation verarbeitet TK-Excel Dateien, extrahiert hieraus Metadaten und stellt diese Metadaten in Form von csv-Dateien zur Verfügung. Die Ausgangsdateien werden in das Zielverzeichnis geschrieben, welches in der Konfigurationsdatei config.csv als Parameter angegeben ist.
