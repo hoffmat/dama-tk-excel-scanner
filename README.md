@@ -13,9 +13,8 @@ Beispiel config.csv:
 // Quellverzeichnis in dem die Datastore Excel-Files gesucht werden
 </br>
 quellverzeichnis,C:\tmp\datastore\tk_excels\
-</br>
 
-Beispiel TK-Excel Dateien sind im Verezichnis /daten/tk_excels abgelegt
+Beispiel TK-Excel Dateien sind im Verzeichnis /daten/tk_excels abgelegt
 
 # Ausgangsdaten
 Die Applikation verarbeitet TK-Excel Dateien, extrahiert hieraus Metadaten und stellt diese Metadaten in Form von csv-Dateien zur Verfügung. Die Ausgangsdateien werden in das Zielverzeichnis geschrieben, welches in der Konfigurationsdatei config.csv als Parameter angegeben ist.
