@@ -72,9 +72,22 @@ Die Applikation wird wie folgt aufgerufen:  java -jar \<applikationsname> \<Pfad
  
 Beispielaufruf: java -jar dama-tk-excel-scanner-0.1.0.jar C:\tmp\datastore\config.csv
 
-# Logging des TK-Excel Parsing
+# Logging des TK-Excel-Scanners
 Der TK-Excel-Scanner prüft, ob ein TK-Excel valide ist. Wenn Fehler oder Warnungen festgestellt werden, dann werden diese in eine datastore_logging.csv geschrieben.
 </br>
 Ziel hierbei ist es, die erkannten Fehler an den entsprechnden Fachbereiche weiterzugeben, damit das entsprechde TK-Excel korrigiert wird.
 
 Die Logging-Datei hat folgenden Aufbau:
+
+Zeitpunkt --> Zeitpunkt der Prüfung
+Excel_File --> Name des Excels, in dem der Fehler/die Warnung aufgetreten ist
+Reiter --> Name des Reiters, in dem der Fehler/die Warnung aufgetreten ist
+Zeilennummer --> Zeilennummer im Reiter, in dem der Fehler/die Warnung aufgetreten ist
+Logtyp --> Art der Log-Information [Fehler, Warnung]
+           Für TK-Excels bei denen mindestens ein Fehler aufgetreten ist, werden keine Daten in den MDM-Hub Ausgangsdateien erzeugt (Excel wird übersprungen)
+           Für TK-Excels bei denen nur Warnungen aufegtreten sind, werden Daten in den MDM-Hub Ausgangsdateien erzeugt (Excel wird nicht übersprungen)
+Information --> Logging-Meldung
+
+
+
+
