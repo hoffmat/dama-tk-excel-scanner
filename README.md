@@ -5,8 +5,11 @@ Java Applikation für das Parsen von Datastore TK-Excels zur Extraktion von Meta
 # Eingangsdaten
 Die Applikation verarbeitet TK-Excel Dateien. Die Dateien müssen in einem Verzeichnis abgelegt werden, dass in der Konfigurationsdatei config.csv als Parameter angegeben wird.
 
-config.csv:
-// Quellverezichnis in dem die Datastore Excel-Files gesucht werden
+
+Beispiel config.csv:
+</br>
+// Quellverzeichnis in dem die Datastore Excel-Files gesucht werden
+</br>
 quellverzeichnis,C:\tmp\datastore\tk_xcels\
 
 </br>
