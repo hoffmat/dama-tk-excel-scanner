@@ -88,11 +88,13 @@ Reiter --> Name des Reiters, in dem der Fehler/die Warnung aufgetreten ist
 Zeilennummer --> Zeilennummer im Reiter, in dem der Fehler/die Warnung aufgetreten ist
 </br>
 Logtyp --> Art der Log-Information [Fehler, Warnung]
-           Für TK-Excels bei denen mindestens ein Fehler aufgetreten ist, werden keine Daten in den MDM-Hub Ausgangsdateien erzeugt (Excel wird übersprungen)
-           Für TK-Excels bei denen nur Warnungen aufegtreten sind, werden Daten in den MDM-Hub Ausgangsdateien erzeugt (Excel wird nicht übersprungen)
 </br>
 Information --> Logging-Meldung
 
 
+Behandlung von Log-Typen:
 
+ Logtyp Fehler --> Für TK-Excels bei denen mindestens ein Fehler aufgetreten ist, werden keine Daten in den MDM-Hub Ausgangsdateien erzeugt (Excel wird übersprungen)
+ </br>
+ Logtyp Warnung -> Für TK-Excels bei denen nur Warnungen aufegtreten sind, werden Daten in den MDM-Hub Ausgangsdateien erzeugt (Excel wird nicht übersprungen)
 
