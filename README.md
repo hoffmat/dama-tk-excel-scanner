@@ -23,7 +23,6 @@ Beispiel TK-Excel Dateien sind im Verzeichnis /daten/tk_excels abgelegt
 # Ausgangsdaten
 Die Applikation verarbeitet TK-Excel Dateien, extrahiert hieraus Metadaten und stellt diese Metadaten in Form von csv-Dateien zur Verfügung. Die Ausgangsdateien werden in das Zielverzeichnis geschrieben, welches in der Konfigurationsdatei config.csv als Parameter angegeben ist.
 
-
 Beispiel config.csv:
 </br>
 // Zielverzeichnis in dem die Datastore Excel-Files gesucht werden
@@ -31,6 +30,20 @@ Beispiel config.csv:
 zielverzeichnis,C:\tmp\datastore\hub\
 
 </br>
+
+Es werden aktuell folgende Ausgangsdateien für den MDM-Hub erzeugt:
+
+MDM-Hub Ausgangsdatei	Beschreibung
+datastore_objects.csv	Enthält alle Objekte, die im Datenkatalog angelegt werden sollen
+datastore_links.csv	Definiert die Abhängigkeiten von Objekten (Objekthierarchie)
+datastore_lineage.csv	Legt die Datenflüsse zwischen Objekten fest
+datastore_attributes.csv	Enthält Attribute und Attributwerte, die füe ein Objekt gelten
+![image](https://user-images.githubusercontent.com/6553848/208673543-3193843f-b2a3-4a21-8f52-078706a9dc67.png)
+
+
+
+
+
 
  
 # Applikationsausführung
