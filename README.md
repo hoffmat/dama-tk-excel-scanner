@@ -34,8 +34,11 @@ zielverzeichnis,C:\tmp\datastore\hub\
 Es werden aktuell folgende Ausgangsdateien für den MDM-Hub erzeugt:
 
 datastore_objects.csv	   --> enthält alle Objekte, die im Datenkatalog angelegt werden sollen
+</br>
 datastore_links.csv	     --> definiert die Abhängigkeiten von Objekten (Objekthierarchie)
+</br>
 datastore_lineage.csv	   --> legt die Datenflüsse zwischen Objekten fest
+</br>
 datastore_attributes.csv	--> enthält Attribute und Attributwerte, die füe ein Objekt gelten
 
 
