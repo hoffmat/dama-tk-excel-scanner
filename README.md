@@ -92,9 +92,10 @@ Logtyp --> Art der Log-Information [Fehler, Warnung]
 Information --> Logging-Meldung
 
 
-Behandlung von Log-Typen:
+Logtyp Aktionen:
 
  Logtyp Fehler --> Für TK-Excels bei denen mindestens ein Fehler aufgetreten ist, werden keine Daten in den MDM-Hub Ausgangsdateien erzeugt (Excel wird übersprungen)
  </br>
- Logtyp Warnung -> Für TK-Excels bei denen nur Warnungen aufegtreten sind, werden Daten in den MDM-Hub Ausgangsdateien erzeugt (Excel wird nicht übersprungen)
+ </br>
+ Logtyp Warnung -> Für TK-Excels bei denen nur Warnungen (kein Fehler) aufgetreten sind, werden Daten in den MDM-Hub Ausgangsdateien erzeugt (Excel wird nicht übersprungen)
 
