@@ -9,7 +9,7 @@ Es ist bisher kein Test auf Basis von realen TK-Excels erfolgt.
 
 Da der DAMA TK-Excel-Scanner Metadaten für den Metadaten Management Hub (MDM Hub) bereitstellen soll und der MDM Hub erst im ersten Halbjahr 2023 konzipiert und umgesetzt wird, müssen die Strukturen und der Inhalte der erzeugten Hub-Dateien noch angepasst werden.
 </br>
-Außerdem muss ein End-to-End Integrationstest durchgeführt werden (TK-Excel-Scanner -> MDM Hub -> Informatica Enterprise Data Catalog)
+Außerdem muss ein End-to-End Integrationstest durchgeführt werden (TK-Excel-Scanner -> MDM Hub -> Informatica Enterprise Data Catalog).
 
 # Eingangsdaten
 Die Applikation verarbeitet TK-Excel Dateien. Die Dateien müssen in einem Verzeichnis abgelegt werden, dass in der Konfigurationsdatei config.csv als Parameter angegeben wird.
@@ -45,7 +45,7 @@ datastore_attributes.csv	--> enthält Attribute und Attributwerte, die füe ein 
 
 
 # Konfigurationsdatei
-Die Applikation liest beim Programmstart Parameter aus einer Konfigurationsdatei
+Die Applikation liest beim Programmstart Parameter aus einer Konfigurationsdatei.
 </br>
 Die Konfigurationsdatei muss im csv-Format abgelegt sein. 
 Der Name und der Pfad der Datei sind beim Programmstart als Applikationsparameter angegeben werden.
